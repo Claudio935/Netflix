@@ -1,0 +1,110 @@
+:root{
+    --preta: #131007;
+    --vermelha: #E50914;
+    --cinza: #AAA;
+}
+
+
+
+
+
+body{
+background: var(--preta);
+font-family: "Arial", Times, serif;
+color:white;
+}
+
+header .container{
+/*Define o elemento como um flex container, tornando os seus filhos flex-itens.*/
+display:flex;
+align-items: center;
+/*Alinha os itens flex no container de acordo com a direção*/
+/*Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.*/
+justify-content: space-between;
+
+}
+header .logo {
+    color: var(--vermelha);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin: 5px;
+    }
+    
+header nav a{
+    color: var(--cinza);
+    text-decoration: none; 
+    margin-right: 10px;
+}
+/* the :hover selector is used to select elements when you mouse over them.*/
+header nav a:hover{
+color: #fff;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+/* define uma distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 0;
+}
+/*filme principal*/
+  .Filme-Principal{
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/vento.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+    
+  
+}
+.Filme-Principal .descricao{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+}
+.Titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.40);
+    border:none;
+    color:white;
+    /*distância interna do elemento
+    quando coloca um unico valor será valido para todas as direções*/
+    padding: 15px 30px;
+    font-size: 12px;
+    /*faz aparecer o dedinho*/
+    cursor: pointer;
+    /*cuida da transição das animações*/
+    transition: .3s ease all;
+}
+ /*atribui a função de mudar de cor quando o botaõ estiver encima*/
+.botao:hover{
+    background-color: white;
+    color:black
+}
+.botao i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 20px;
+}
+.Filme-Principal .container{
+    width: 70%;
+}
+.box-filmes{
+    height:100%;
+    width: 100%;
+    display :block;
+    cursor: pointer;
+}
+.carrosel-filmes{
+    margin-top: 10px;
+}

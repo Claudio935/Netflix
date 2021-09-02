@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class = "logo">OLDFLIX</h2>
+        
+        
+        <nav class = "opcoes"> 
+            <a href="">inicío</a>
+            <a href="">Serie</a>
+            <a href="">filmes</a>
+            <a href="">documentários</a>
+
+            
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div class="Filme-Principal">
+            <div class="container">
+                <h3 class="Titulo">...E o Vento Levou </h3>
+                <p class= "descricao">E o Vento Levou" narra a complicada vida de Scarlet O’Hara (Vivien Leigh),
+                    seus amores e desilusões em um período que tem a Guerra Civil Americana como pano de fundo. </p>
+            
+            <div class="botoes">
+                <button role="button" class="botao">
+                    <i class="fas fa-play"></i>
+                    Assistir agora
+                </button>
+                
+                <button role ="button" class="botao" onclick="newPage(1)">
+                    <i class="fas fa-info-circle"></i>
+                    Mais Informações
+                    
+                </button>
+            
+            </div>
+        </div>
+    </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filmes" id="filme1"  src="/img/Titanic.jpg" alt="" srcset="" onclick="newPage(2)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme2" src="/img/ghost.jpg" alt="" srcset="" onclick="newPage(3)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme3" src="/img/oz.jpg" alt="" srcset=""  onclick="newPage(4)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme4" src="/img/casablaca.jpg" alt="" srcset="" onclick="newPage(5)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme5" src="/img/curtindo.jpg" alt="" srcset="" onclick="newPage(6)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme6" src="/img/devolta.jpg" alt="" srcset="" onclick="newPage(7)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme7" src="/img/iluminado.jpg" alt="" srcset="" onclick="newPage(8)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme8" src="/img/PlanetodosMacacos.jpg" alt="" srcset="" onclick="newPage(9)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme9" src="/img/poderoso chefão.jpg" alt="" srcset="" onclick="newPage(10)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme10" src="/img/pulpfiction.jpg" alt="" srcset="" onclick="newPage(11)"/>
+    </div>
+            <div class="item">
+                <img class="box-filmes" id="filme11" src="/img/ritmoquente.jpg" alt="" srcset="" onclick="newPage(12)"/>
+    </div>
+        </div>
+            </div>
+    <!-- aruivo src adquirido https://fontawesome.com/v5.15/icons/info-circle?style=solid-->
+    <script src="https://kit.fontawesome.com/f082e27635.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/index.js"></script>
+    <script src="/js/owl/script.js"></script>
+</body>
+</html>

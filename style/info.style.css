@@ -1,0 +1,102 @@
+*{
+    background-color:#151515;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    display: flex;
+    justify-content: space-between 5px ;
+    margin: 5px 0;
+    
+    
+}
+
+.titulo{
+    color: #E0E0E0;
+    font-size: 30px;
+    margin: 0 15px ;
+
+    
+}
+
+button{
+    border:none;
+    font-size: 200%;
+    cursor: pointer;
+}
+.voltar i{
+    color:#E0E0E0;
+    height: 60%;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    color: #454545;
+    
+    justify-content: center 15px;
+    margin-top: 26px;
+    font-size: 12px;
+
+
+}
+.info h4{
+    margin: 15px;
+}
+
+.voltar i:hover{
+    color:white;
+}
+
+    
+
+.indicacao h4 {
+border: solid 1px;
+font-size: 8;
+    
+   
+    
+
+}
+.imagem img{
+   
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    
+    
+}
+.filme-sinopse{
+    display: flex;
+    color: #4E4E4E;
+    text-align: justify;
+    margin: 30px;
+
+}
+.star{
+    color: #C5051F;
+    display: flex;
+    margin: 10px 0;
+}
+.textelements{
+    margin: 0 4%;
+}
+ h5{
+    background-color: #393939;
+    margin: 5px;
+    padding: 0;
+    
+}
+.elenco{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.direitor{
+    width: 90px;
+}
+.genero{
+    display: flex;
+    width:90px;
+}
