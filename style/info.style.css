@@ -94,7 +94,8 @@ font-size: 8;
    
 }
 .direitor{
-    width: 90px;
+    width: 13.5%;
+    text-align:center;
 }
 .genero{
     display: flex;
